@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding:0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(fonts/Poppins/Poppins-Medium.ttf);
+}
+
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+
+}
+.banner{
+    background-color: #D9D9D9;
+    height:fit-content;
+    width: 100%;
+    font-family: serif;
+}
+.banner h1{
+    color: red;
+}
+.banner a{
+    text-decoration: none;
+    color: red;
+}
+.colors{
+    z-index: 3;
+}
+a:hover{
+    color: red !important;
+}
+.red{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color:#a80a0a;
+    border: solid black 2px;cursor: pointer;
+}
+.green{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #179e0b;
+    border: solid black 2px;cursor: pointer;
+}
+.blue{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #023292;
+    border: solid black 2px;cursor: pointer;
+}
+section{
+    font-family: serif;
+}
+.section-button{
+    list-style-type: none;
+}
+.section-button a{
+    text-decoration: none;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-toggle{
+    color: black;
+}
+ul.left.dropdown-menu.show{
+    transform: translate(00px,30px) !important;
+    padding: 0px 0px;
+}
+ul.right.dropdown-menu.show{
+    transform: translate(-50px,30px) !important;
+    padding: 0px 0px;
+
+}
+.dropdown-menu{
+
+    border: 1.5px solid !important;
+}
+.dropdown-item a{
+    font-size: 15px;
+}
+.card{
+    font-family:serif;
+    border: none !important;
+}
+.card h6{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0;
+}
+.card p{
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: red;
+}
+.vm{
+    border-color: red !important;
+    font-family: myfont;
+}
+.banner2{
+    background-color: #D9D9D9;
+font-family: serif;
+}
+.banner2 .btn{
+background-color: red;
+color: white;
+font-family: myfont;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.banner2 .left h1{
+    font-weight: 600;
+}
+.cards2 img{
+    height: 150px;
+}
+.card h5{
+    font-weight: bold;
+    font-size:22px;
+}
+.cards2 p{
+    color: black;
+}
+.cards2 a{
+    text-decoration: none;
+    color: red;
+}
+.banner3{
+    background-color: #D9D9D9;
+}
+.banner3 h1{
+    font-family: serif;
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.one img{
+    border: solid red 2px;
+    padding: 4px;
+    border-radius: 100%;
+}
+.one p:nth-of-type(1){
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+.one p:nth-of-type(2){
+    font-size: 12px;
+}
+.one p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+footer{
+    font-family: serif;
+}
+footer ul{
+    padding-left: 0px;
+}
+footer img{
+    margin-right: 10px;
+    opacity: 70%;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+}
+footer span{
+    color: black;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+hr.dropdown-divider{
+    margin: 0px 0px;
+}
+.navbar-nav{
+    transform: translate(-100px,0px);
+}
